@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="0dp"
+            android:id="@+id/image"
+            android:layout_weight="6"
+            android:layout_height="300dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:text="browse"
+            android:id="@+id/browse"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Your Name"
+        android:id="@+id/name"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter Your Course"
+
+        android:id="@+id/course"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Upload"
+        android:id="@+id/upload"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "684087422782",
+    "firebase_url": "https://chats-app-5f3fb-default-rtdb.firebaseio.com",
+    "project_id": "chats-app-5f3fb",
+    "storage_bucket": "chats-app-5f3fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684087422782:android:0cec9cd8d4aef57002466f",
+        "android_client_info": {
+          "package_name": "com.example.chatsapppart1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATg4ieEuGAYxKEgMU0H2jle1hY9hoF7RU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684087422782:android:b284729f6f1c78fe02466f",
+        "android_client_info": {
+          "package_name": "com.example.firebasesignupformwithimage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATg4ieEuGAYxKEgMU0H2jle1hY9hoF7RU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
